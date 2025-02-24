@@ -53,7 +53,7 @@ if uploaded_file is not None:
         st.error(f"Error processing file: {e}")
 
 # Sidebar for app instructions
-st.sidebar.title("Hello, My Good Friend")
+st.sidebar.title("About this Tool")
 st.sidebar.markdown("""
 
 This tool helps you create LLM.txt files for your website
