@@ -51,3 +51,18 @@ if uploaded_file is not None:
                 os.remove(file_path)
     except Exception as e:
         st.error(f"Error processing file: {e}")
+
+# Sidebar for app instructions
+st.sidebar.title("Hello, My Good Friend")
+st.sidebar.markdown("""
+
+This tool helps you create LLM.txt files for your website
+
+An llms.txt file is a standardized markdown file that helps LLMs like chagpt, llama, claude, gemini, grok etc  use your website at inference time. 
+
+Once created the file should be embedded at the root folder of your site in the same way that sitemap and robots.txt files are embedded
+
+How llm.txt files differ from sitemaps and robots.txt files
+- **/sitemap.xml lists all indexable pages, but doesn’t help with content processing. AI systems would still need to parse complex HTML and handle extra info, cluttering up the context window**
+- **/robots.txt suggests search engine crawler access, but doesn’t assist with content understanding either**
+- **/llms.txt solves AI-related challenges. It helps overcome context window limitations, removes non-essential markup and scripts, and presents content in a structure optimized for AI processing**
