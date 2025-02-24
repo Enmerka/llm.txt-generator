@@ -63,7 +63,7 @@ An llms.txt file is a standardized markdown file that helps LLMs like chagpt, ll
 Once created the file should be embedded at the root folder of your site in the same way that sitemap and robots.txt files are embedded
 
 How llm.txt files differ from sitemaps and robots.txt files
-- **/sitemap.xml lists all indexable pages, but doesn’t help with content processing. AI systems would still need to parse complex HTML and handle extra info, cluttering up the context window**
-- **/robots.txt suggests search engine crawler access, but doesn’t assist with content understanding either**
-- **/llms.txt solves AI-related challenges. It helps overcome context window limitations, removes non-essential markup and scripts, and presents content in a structure optimized for AI processing**
+- /sitemap.xml lists all indexable pages, but doesn’t help with content processing. AI systems would still need to parse complex HTML and handle extra info, cluttering up the context window
+- /robots.txt suggests search engine crawler access, but doesn’t assist with content understanding either
+- /llms.txt solves AI-related challenges. It helps overcome context window limitations, removes non-essential markup and scripts, and presents content in a structure optimized for AI processing
 """)
